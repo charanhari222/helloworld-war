@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /Ant
+    destination: /ant
 permissions:
-  - object: /Ant
+  - object: /ant
     pattern: '**'
     mode: '0755'
     owner: root
